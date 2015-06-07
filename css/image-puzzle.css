@@ -1,0 +1,85 @@
+﻿body{
+    font-family: 'Lato', sans-serif;
+}
+#scramble hr{
+    border:none;
+    border-top:2px solid #f5f2f2;
+    height:1px;
+}
+
+#scramble #mainPanel {
+    background-color:#191919;
+    padding:10px 0px;
+    margin: 10px auto;
+    max-width:800px;
+    width:95%;
+}
+
+#scramble #actualImageBox {
+    display: inline-block;
+    font-size:1.1em;
+    margin: 10px 10px;
+    vertical-align: top;
+    width:280px;
+    color: #E87E04;
+}
+
+#scramble #stepBox{
+    display:inline-block;
+    width:48%;
+    color: #26A65B;
+}
+#scramble #timeBox{
+    display:inline-block;
+    float: right;
+    color: #26A65B;
+}
+
+#scramble #stepBox div {
+    display:inline-block;
+    padding:1px 4px;
+    margin: 0px auto;
+    max-width:800px;
+}
+
+#scramble img#actualImage{
+    border:2px solid #26A65B;
+    height:306px;
+    width:350px;
+}
+
+#scramble #sortable {
+    border:2px solid #26A65B;
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+    width: 400px;
+}
+
+    #scramble #sortable li {
+        background-size: 400% 400%;
+        border: none;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+        float: left;
+        width: 100px;
+        height: 100px;
+    }
+#imgTitle{
+    color: #DCC6E0;
+    font-size: 10vmin;
+    font-weight: 300;
+}
+
+#scramble button  {
+    background-color:#f5f2f2;
+    border:1px solid #cce;
+    display: inline;
+    font-size: 14px;
+    height: auto;
+    width: auto;
+    padding: 3px 8px;
+    margin-top: 30px;
+}
